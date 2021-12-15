@@ -1,0 +1,19 @@
+// FONTS
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+$lexend-deca: 'Lexend Deca', sans-serif;
+
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+$big-shoulders-display: 'Big Shoulders Display', sans-serif;
+
+// FONT WEIGHTS
+$neutral: 400;
+$bold: 700;
+
+// PRIMARY COLORS
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+
+// NEUTRAL COLORS
+$paragraph: hsla(0, 0%, 100%, 0.75);
+$bg-hd-btn: hsl(0, 0%, 95%);

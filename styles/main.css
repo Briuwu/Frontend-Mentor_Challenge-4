@@ -1,0 +1,124 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card {
+  margin: 5em auto;
+  padding: 0 3em;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.card-box {
+  padding: 5em 4em;
+  text-align: left;
+}
+
+.card--title {
+  font-size: 1.7rem;
+  margin: 1em 0;
+}
+
+.card--info {
+  font-size: 1rem;
+  margin-bottom: 3em;
+  line-height: 1.5;
+  padding-right: 1em;
+}
+
+.card--btn {
+  padding: 1em 3em;
+  border-radius: 2em;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  margin: auto;
+}
+
+.card--btn:hover, .card--btn:focus {
+  background-color: transparent;
+  color: #f2f2f2;
+  outline: 1px solid #f2f2f2;
+}
+
+@media only screen and (min-width: 900px) {
+  .card--btn {
+    font-size: 0.8rem;
+  }
+}
+
+.card__sedans {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  background-color: #e38826;
+}
+
+.card__sedans--btn {
+  color: #e38826;
+}
+
+@media only screen and (min-width: 900px) {
+  .card__sedans {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1em;
+  }
+}
+
+.card__suvs {
+  background-color: #006970;
+}
+
+.card__suvs--btn {
+  color: #006970;
+}
+
+.card__luxury {
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  background-color: #004241;
+}
+
+.card__luxury--btn {
+  color: #004241;
+}
+
+@media only screen and (min-width: 900px) {
+  .card__luxury {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    grid-auto-flow: column;
+    width: 60vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
